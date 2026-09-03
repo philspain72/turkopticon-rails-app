@@ -8,35 +8,47 @@
 
 #container
   #side-a
-    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/turkopticon" data-widget-id="365016898619981825">Tweets by @turkopticon</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com" data-widget-id="365016898619981825">Tweets by @turkopticon</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://://twitter.com";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   #side-b
     .box
-      %p.big Turkopticon helps the people in the 'crowd' of crowdsourcing watch out for each other&mdash;because nobody else seems to be.
+      %h1{:style => "font-size: 24px; font-weight: bold; margin-bottom: 8px;"} Our Mission
+      %p.big Turkopticon’s mission is to organize data workers to build collective power, improve working conditions, and hold platforms, companies, and institutions accountable to the labor they rely on.
+
+      %h1{:style => "font-size: 24px; font-weight: bold; margin-top: 20px; margin-bottom: 8px;"} Vision
+      %p.big We envision Turkopticon as a worker-led hub where data workers can find support, build power, and negotiate better working conditions.
+
+      %h1{:style => "font-size: 24px; font-weight: bold; margin-top: 20px; margin-bottom: 12px;"} Our Values
       %p.big
-        Almost half of the Mechanical Turk workers who wrote their Bill of Rights demanded protection from employers who take their work without paying.
-        %strong Turkopticon lets you REPORT and AVOID shady employers.
+        %strong Worker-Led:
+        Our Organization is led by data workers, ensuring our advocacy, resources, and support reflect the real and current conditions workers face.
       %p.big
-        %strong How Turkopticon works:
-      %p Turkopticon works as a userscript which can be added to script managers such as <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a> or <a href="https://www.greasespot.net/" target="_blank">Greasemonkey</a>. 
-      %p Once you have a script manager, you can grab the latest version of the <a href="https://greasyfork.org/en/scripts/431111-turkopticon-net" target="blank">turkopticon userscript here</a>.
-      %img{:src => "/images/to_screenshot_2021.png", :alt => "Turkopticon in action", :align => "right", :style => "max-width: 100%; margin-left: 6px; margin-bottom: 6px; border: 1px solid #cccccc"}
-      %p Turkopticon adds functionality to Amazon Mechanical Turk as you browse for HITs and review status of work you've done. As you browse HITs, Turkopticon places a button next to each requester and highlights requesters for whom there are reviews from other workers. Bad reviews let you avoid shady employers and good reviews help you find fair ones. You can view reports made against requesters with a quick click.
-      %p As you review HITs you've completed, are there HITs you weren't fairly paid for? Turkopticon adds a button that lets you review requesters from your "Status Detail" page.
+        %strong Inclusive:
+        We provide assistance, resources, and advocacy to all data workers without discrimination and with respect for each worker’s human worth.
       %p.big
-        %strong Other Turking resources:
+        %strong Collective Power:
+        We believe data workers are stronger together. We build connections across platforms, borders, and experiences to support one another.
+      %p.big
+        %strong Horizontal Structure:
+        We are committed to a structure where leadership is shared, voices are valued, and decisions are made with transparency and care.
+
+      %h1{:style => "font-size: 24px; font-weight: bold; margin-top: 24px; margin-bottom: 8px;"} Resources for Workers
+      %p.big
         %ul
-          %li <a href="http://mturkcrowd.com">MTurk Crowd</a>
-          %li <a href="http://www.mturkforum.com/">MTurk Forum</a>
-          %li
-            <a href="http://www.reddit.com/r/mturk/wiki/index">MTurk wiki on the MTurk subreddit</a>
-          %li Hide requesters script: <a href="http://userscripts-mirror.org/scripts/show/69128">for Greasemonkey</a>; <a href="http://userscripts-mirror.org/scripts/show/130929">for Google Chrome</a>
-          %li
-            <a href="http://www.reddit.com/r/HITsWorthTurkingFor/comments/sdyuo/turking_scripts_and_addons">List of useful Turking scripts and add-ons</a> from the <a href="http://www.reddit.com/r/HITsWorthTurkingFor/">HITsWorthTurkingFor subreddit</a>
-          %li
-            %a{:href => "http://www.reddit.com/r/mturk/comments/s4wk9/jamburgles_tips_for_a_splendidly_efficient_mturk"} Turking tips
-            from the
-            %a{:href => "http://www.reddit.com/r/mturk"} MTurk subreddit
-        %strong Notes for requesters:
-        %ul
-          %li <p>"Low cost, high quality" is a myth; you must pay for quality</p>
+          %li <a href="https://www.reddit.com/user/turkopticon/m/dataworker_platforms/" target="_blank">Data Work on Reddit</a>
+          %li <a href="https://dataworklandscape.org/" target="_blank">The Data Work Landscape by TechEquity</a>
+          %li <a href="https://bsky.app/profile/did:plc:gvgt6kvd7nvi6esgnsmxkd5j/lists/3lcgjugc3zc2p" target="_blank">People/Orgs of Interest on Bluesky</a>
+          %li <a href="#" target="_blank">Platforms’ TOS</a>
+
+      %h1{:style => "font-size: 24px; font-weight: bold; margin-top: 24px; margin-bottom: 8px;"} Stay Connected
+      %p.big Follow Turkopticon for worker resources, campaign updates, news, and opportunities to take action.
+      
+      %p.big{:style => "display: flex; gap: 15px; align-items: center; margin-top: 12px;"}
+        <a href="https://www.linkedin.com/company/turkopticon" target="_blank" title="LinkedIn"><img src="https://flaticon.com" width="30" height="30" alt="LinkedIn"/></a>
+        <a href="https://bsky.app/profile/turkopticon.bsky.social" target="_blank" title="Bluesky"><img src="https://flaticon.com" width="30" height="30" alt="Bluesky"/></a>
+        <a href="https://www.instagram.com/turkopticon/" target="_blank" title="Instagram"><img src="https://flaticon.com" width="30" height="30" alt="Instagram"/></a>
+        <a href="https://turkopticon.net" target="_blank" title="Newsletter"><img src="https://flaticon.com" width="30" height="30" alt="Newsletter"/></a>
+
+      %p.big{:style => "margin-top: 20px;"}
+        %strong Questions, concerns, or interested in collaborating?
+        <a href="mailto:hello@turkopticon.net" title="Email Us"><img src="https://flaticon.com" width="25" height="25" alt="Email" style="vertical-align: middle; margin-left: 5px;"/></a>
